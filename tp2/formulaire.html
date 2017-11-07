@@ -1,0 +1,66 @@
+<html>
+        <head>
+        <title>Saisie d'une fiche "Personne"</title>
+    
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="formul.css">
+        <script type="text/javascript" src="formulaire.js"></script>
+        </head>
+        <body>
+    
+            <h1><center>Saisie d'une fiche " Personne "  </center></h2>
+    
+    <form method="post" action="">
+    
+    
+               <div>
+                   <label>Nom </label></b> <center><input name="Nom" type="text" size="50" id="Nom" value="" /></center>
+               </div>
+               <div>
+                   <label>Prénom </label>  <center><input name="Prenom" type="text" size="50" id="Prenom" value="" /></center>
+               </div>
+               <div>
+                <label>Date de naissance </label>  <center><input name="Date" type="text" id="Date" placeholder="JJ/MM/AAAA" size="50" value="" /></center>
+            </div>
+               <div>
+                   <label>Adresse </label> <center><input name="Adresse" type="text" size="50" id="Adresse" value="" /></center>
+               </div>
+               <div>
+                    <label> Mail </label>  <center><input name="Mail" type="text" size="50" id="Mail" value="" /></center>
+            </div>
+    
+        </br>
+               <div>
+                   <center><input type="button" value="Valider" onclick="validation()" /></center>
+               </div>
+        
+       </form>
+    
+       <div id="error" hidden>
+           
+            <label> </label>
+    
+        </div> 
+    
+        <div id="resultat" hidden>
+                
+                 <label> </label>
+         
+        </div> 
+        <style type="text/css">
+            h2{ color: rgb(53, 16, 138); }
+        </style>
+
+        <style type="text/css">
+            h3{ color: rgb(53, 16, 138); }
+        </style>
+        
+        <style type="text/css">
+            h4{ color: rgb(53, 16, 138); }
+        </style>
+       
+    </body>
+    </html>
+
+
+
